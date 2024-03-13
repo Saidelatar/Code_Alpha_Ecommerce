@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9771174359",
+    "project_id": "groceryapp-35891",
+    "storage_bucket": "groceryapp-35891.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9771174359:android:3412f5a12c572b5d126392",
+        "android_client_info": {
+          "package_name": "com.example.music_notes_player_app_setup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9771174359-b93neobjsa41dulo1iosnkd7v2e82d04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1zdOCwWz4Ih9l9Fq8KCYLpU-m8jgmo1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9771174359-b93neobjsa41dulo1iosnkd7v2e82d04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

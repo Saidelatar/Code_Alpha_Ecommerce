@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>9771174359-1eok697f32m9cejsrbqntus9kgl511fa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.9771174359-1eok697f32m9cejsrbqntus9kgl511fa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjIlJXwkxLIPmJwH2OuNLwEBVg2OqY-Pg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>9771174359</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.musicNotesPlayerAppSetup</string>
+	<key>PROJECT_ID</key>
+	<string>groceryapp-35891</string>
+	<key>STORAGE_BUCKET</key>
+	<string>groceryapp-35891.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:9771174359:ios:4fcaba96492a3c2d126392</string>
+</dict>
+</plist>
