@@ -6,7 +6,6 @@ import '../../../widegt/CustomarButton.dart';
 import '../../../widegt/CustomarCricleAvater.dart';
 import 'LoginPage.dart';
 
-
 // ignore: must_be_immutable
 class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});
@@ -61,19 +60,6 @@ class _WelcomePageState extends State<WelcomePage> {
                   ],
                 ),
               ),
-              Container(
-                margin: const EdgeInsets.symmetric(horizontal: 40),
-                child: const Text(
-                  "Lorem ipsum dolor sit amet, consetetur "
-                  "sadipscing elitr, sed diam nonumy",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w500,
-                    color: Color.fromARGB(99, 83, 83, 83),
-                  ),
-                ),
-              ),
               const Spacer(),
               CustomarCricleAvater(
                   color1: color1,
@@ -106,15 +92,13 @@ class _WelcomePageState extends State<WelcomePage> {
           color2 = greenColorCricle;
           color3 = grayColorCricle;
           color4 = grayColorCricle;
-        } else if (imageBackgroundWelcome ==
-            'assets/images/welcome2.jpg') {
+        } else if (imageBackgroundWelcome == 'assets/images/welcome2.jpg') {
           imageBackgroundWelcome = 'assets/images/welcome3.png';
           color1 = grayColorCricle;
           color2 = grayColorCricle;
           color3 = greenColorCricle;
           color4 = grayColorCricle;
-        } else if (imageBackgroundWelcome ==
-            'assets/images/welcome3.png') {
+        } else if (imageBackgroundWelcome == 'assets/images/welcome3.png') {
           imageBackgroundWelcome = 'assets/images/welcome4.png';
           color1 = grayColorCricle;
           color2 = grayColorCricle;
