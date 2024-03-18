@@ -10,6 +10,7 @@ import 'package:music_notes_player_app_setup/screens/Authentiction_Screens/scree
 import 'package:music_notes_player_app_setup/screens/FavoriteScreen/favorite.dart';
 import 'package:music_notes_player_app_setup/screens/HomeScrern/home_screen.dart';
 import 'package:music_notes_player_app_setup/screens/ProfileScreens/profile.dart';
+import 'package:music_notes_player_app_setup/search/search_screen.dart';
 import 'const.dart';
 import 'cubits/product_cupit/product_cubit.dart';
 import 'firebase_options.dart';
@@ -45,6 +46,7 @@ class Ecommerce extends StatelessWidget {
             HomeScreen.id: (context) => const HomeScreen(),
             ProfileScreen.id: (context) => const ProfileScreen(),
             FavoritesScreen.id: (context) => const FavoritesScreen(),
+            SearchScreen.id: (context) => const SearchScreen(),
           },
           debugShowCheckedModeBanner: false,
           home: const WelcomePage(),

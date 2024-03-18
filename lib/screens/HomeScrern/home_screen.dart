@@ -2,6 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:music_notes_player_app_setup/search/search_screen.dart';
 
 import '../../const.dart';
 import '../../cubits/product_cupit/product_cubit.dart';
@@ -30,7 +31,18 @@ class _HomeScreenState extends State<HomeScreen> {
       key: _scaffoldKey,
       bottomNavigationBar: _buildBottomNavigation(context),
       backgroundColor: Colors.white,
-      appBar: _buildAppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+        leading: const Icon(Icons.format_list_bulleted_outlined),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.pushNamed(context, SearchScreen.id);
+              },
+              icon: const Icon(CupertinoIcons.search)),
+        ],
+      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(11.0),
@@ -327,17 +339,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-    );
-  }
-
-  AppBar _buildAppBar() {
-    return AppBar(
-      backgroundColor: Colors.white,
-      elevation: 0,
-      leading: _buildAppBarIcons(icon: Icons.format_list_bulleted_outlined),
-      actions: [
-        _buildAppBarIcons(icon: CupertinoIcons.search),
-      ],
     );
   }
 
